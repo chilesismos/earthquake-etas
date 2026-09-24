@@ -178,16 +178,16 @@ X_CREDENTIALS = {
     "use_hardcoded_credentials": True,
 
     "X_API_KEY":
-        "vJ6yw8JZowpL2XrKoPDHjV6hD",
+        "n7aZ7saua8jkLw1OU7WCUBJHS",
 
     "X_API_SECRET":
-        "TtmZgWqwgNVa1FDFC60bvEaK9OipW2wfiIXXSGwNmKdwM55UU0",
+        "37Ui4mu8BLxfswkKyZoAYAcy89hbrL2SXyTQyJLQs9HcyfKdMs",
 
     "X_ACCESS_TOKEN":
-        "2561368769-CUeq4EyGJ19ehkH5utqn0aXfhNrUQApIZPybCD6",
+        "3064940565-ETCyFAdvhGdTB0h3qwu49MKX0rSo8LbC7GKaTTw",
 
     "X_ACCESS_TOKEN_SECRET":
-        "jYw1qL8ML0J9JQbaNR2IPpMAGOInJ9qHcvyC8XZJS0oDZ"
+        "sZTYvM3pATsaO8QBRp3cGUUwU0K0Dc1qJCEGgMnuyOcY4"
 }
 
 
@@ -2686,7 +2686,7 @@ def build_x_post_text(
     )
 
     text = (
-        "Actualización ETAS Chile 🇨🇱\n"
+        "Probabilidad de Sismo en Chile 🇨🇱\n\n"
         f"M≥4 24h:{p4_24:.1f}% 7d:{p4_7:.1f}% 30d:{p4_30:.1f}%\n"
         f"M≥5 24h:{p5_24:.1f}% 7d:{p5_7:.1f}% 30d:{p5_30:.1f}%\n"
         f"M≥6 24h:{p6_24:.1f}% 7d:{p6_7:.1f}% 30d:{p6_30:.1f}%\n"
@@ -2697,8 +2697,8 @@ def build_x_post_text(
         "include_disclaimer"
     ]:
         text += (
-            "\nModelo estadístico experimental; "
-            "no es alerta ni predicción determinista."
+            "\n\nModelo estadístico experimental; "
+            "no constituye una alerta ni una predicción determinista."
         )
 
     return text
