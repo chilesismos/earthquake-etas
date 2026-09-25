@@ -178,16 +178,16 @@ X_CREDENTIALS = {
     "use_hardcoded_credentials": True,
 
     "X_API_KEY":
-        "BZ5jG6p4XiiKb7MnLe7zLD7WA",
+        "9AzJWYmkyeBHinuhO1J53JzrM",
 
     "X_API_SECRET":
-        "N7XaZKZMKZElTWTfa8l0EmtZyIrkVdff7QVa6pM0WJAJEAEams",
+        "0GYUdymBTrM15Ml1Fr8YwJvXsxQQbMB1zq2UHzbXfMIyfrFoNU",
 
     "X_ACCESS_TOKEN":
-        "3064940565-UC2FaVNpZXLAEXCLOMtx0KrSnYcs3KL9Za7260a",
+        "3064940565-tV1WBu3bAl0OhvY4rM7uOHjFycTgFZud3xC7BmG",
 
     "X_ACCESS_TOKEN_SECRET":
-        "LJK4N0WA8qFToi4JSuBPrjD8EdiCfMeRNBnRMSiy8ARvo"
+        "q1BlsjRuBMGoFXdkl8pPXyCA93My0kdDexiHmjKCLvs3E"
 }
 
 
