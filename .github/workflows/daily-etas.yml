@@ -2,8 +2,7 @@ name: ETAS Scheduler Test
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
-      timezone: "America/Sao_Paulo"
+    - cron: "*/5 * * * *"
 
   workflow_dispatch:
 
@@ -17,6 +16,6 @@ jobs:
           echo "Event: ${{ github.event_name }}"
           echo "Schedule: ${{ github.event.schedule }}"
           echo "Repository: ${{ github.repository }}"
-          echo "Branch: ${{ github.ref }}"
+          echo "Ref: ${{ github.ref }}"
           echo "UTC:"
           date -u
