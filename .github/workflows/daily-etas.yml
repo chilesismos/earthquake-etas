@@ -2,7 +2,7 @@ name: ETAS Chile Daily Forecast
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "55 9 * * *"
       timezone: "America/Sao_Paulo"
 
   workflow_dispatch:
